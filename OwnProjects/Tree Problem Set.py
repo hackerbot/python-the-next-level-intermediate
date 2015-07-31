@@ -18,8 +18,9 @@ d = {
 # key4 2
 # key5 3
 
-# def print_depth(data):
+def print_depth(data):
 	#  Write function body
+	pass
 	
 	
 # print_depth(data)
@@ -29,8 +30,8 @@ d = {
 # Common Ancestor and print its value. Node structure are as following:
 
 # class Node{
-# 		value;
-# 		parent;
+# 	value;
+# 	parent;
 # 	}
 
 # Ancestor Definition:
@@ -40,8 +41,8 @@ d = {
 # All nodes values are unique for this tree.
 # You function needs to find least common ancestor (closest common ancestor).
 
-# def lca(node1, node2):
-#  Write function body
-
+def lca(node1, node2):
+	#  Write function body
+	pass
 # You may write additional function.
 # # Explain Runtime and Memory requirement for your solution.
