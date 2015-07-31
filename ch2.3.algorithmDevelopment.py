@@ -1,10 +1,10 @@
 # Pseudocode
 # Developing an algorithm
-# 
+
 # They are really useful
 # They are really clever
 # They make the world faster
-# 
+
 # They are problems that solve problems
 
 def algorihm_development(problem_specs):

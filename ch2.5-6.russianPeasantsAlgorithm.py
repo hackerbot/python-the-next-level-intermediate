@@ -1,11 +1,11 @@
 # The Russian Peasant''s Algorithm
 # Been Around for long time. (17th Century B.C.)
-# 
+
 # Multiply two numbers together.
 # Requirements: multiply by 2, divide by 2, remove even rows, and Add numbers
-# 
+
 # AKA = Mediation and Duplication Method
-#
+
 # example 1
 # 24 x 16 = ?
 # 
@@ -15,10 +15,10 @@
 # 1    256
 # ---------
 # 128 + 256 = 384
-# 
+
 # example 2
 # 1238 x 13 = 3094
-# 
+
 # 119     26
 # 59      52
 # 29      14
@@ -28,7 +28,7 @@
 # 1       1664
 # ----------
 # 3094
-#
+
 # Inputs -> two numbers
 # Output -> the solution to those two numbers multiplied together
 #           using the Russian Peasant's Algorithm

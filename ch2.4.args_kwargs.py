@@ -1,5 +1,5 @@
 # * arguments & ** key word arguments
-#  
+
 # expressions
 
 def F(*args, **kwargs):
