@@ -4,7 +4,7 @@
 #    - fill_in --> Create a new formula replacing letters with numbers
 #    - valid --> Tests our filled_in String
 
-import ??
+import re
 
 def valid(formula):
     '''
@@ -14,7 +14,11 @@ def valid(formula):
     '''
     try:
         ## your code here
-    except AritmeticError:
+        return not re.search(r'\b0[0-9', formula) and eval(formula) is True
+    except ArithmeticError:
         ## your code here
+        return False
     except:
         ## your code here
+        return False
+print(valid('1+1==2'))
