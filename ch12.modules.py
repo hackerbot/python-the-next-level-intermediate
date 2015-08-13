@@ -8,13 +8,14 @@
 # We will use it to represent our 3 Different App Computers
 
 import computer1, computer2
-import computer3 as com3
+import computer3 as com3        # packages
 
 computer1.printName()
 computer2.printName()
 com3.printName()
 
-from Database import utils as dbUtils
-from Handlers import utils as hUtils
-# Databse --> utils.py
-# Handlers --> utils.py
+## from package Database --> get utils.py
+## from package Handlers --> utils.py
+
+# from Database import utils as dbUtils
+# from Handlers import utils as hUtils
