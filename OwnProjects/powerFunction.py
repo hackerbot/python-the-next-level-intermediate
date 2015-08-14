@@ -1,23 +1,6 @@
-# # def foo(n):
-# #     if n == 1:
-# #         return n
-# #     else:
-# #         foo(n-1)
-# 
-# # 1, 1, 2, 3, 5, 8, 13, 21, 34... etc
-# 
-def Fib(n):
-    if n == 1 or n == 2:
-        return 1
-    return Fib(n-1) + Fib(n-2)
- 
-print(Fib(5))
-
-
 # 2^3 = 8
 # pow(2, 3) -> 8
 # pow(4, 0) -> 1
-
 
 def pow(base, exp):
     if exp == 0:
@@ -30,13 +13,11 @@ def pow(base, exp):
  
 print(pow(2,3))
 
-
 # 2^3 = 8
-# pow(2, 3) -> 8
-# pow(4, 0) -> 1
+# pow2(2, 3) -> 8
+# pow2(4, 0) -> 1
 
-
-def pow(base, exp):
+def pow2(base, exp):
     if exp == 0:
         return 1
     if exp == 1:
@@ -47,4 +28,4 @@ def pow(base, exp):
     for each in list:
         total *= each
         print(total)
-print(pow(2,3))
+print(pow2(2,3))
